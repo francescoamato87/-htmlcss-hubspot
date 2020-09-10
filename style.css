@@ -1,0 +1,77 @@
+/* GENERAL STYLES */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+  }
+
+body{
+  /* background-color: #7FFFD4; */
+}
+
+p{
+  font-family: sans-serif;
+}
+header{
+  background: #F8F4FF;
+  width:100vw;
+
+}
+
+.content::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.content{
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+/* HEADER */
+
+.title{
+  float:left;
+}
+
+.search{
+float: right;
+vertical-align: middle;
+padding:10px;
+}
+
+
+.title ul {
+  list-style: none;
+}
+.title ul li{
+  float:left;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+main::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+
+.logo-header-menu img{
+  float: left;
+}
+
+.header-menu ul li{
+  list-style: none;
+  float: left;
+  padding: 10px;
+}
+
+.cover{
+  background-image: url(./img/jumbotron.png);
+  height:480px;
+  background-size: cover;
+}
