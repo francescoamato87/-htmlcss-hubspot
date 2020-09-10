@@ -70,8 +70,40 @@ main::after{
   padding: 10px;
 }
 
+/* MAIN */
+.row_1 h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color:#00008B;
+  margin-top: 40px;
+}
+
+.row_1 span.first-message{
+  font-family: 'Montserrat',sans-serif;
+  color:red;
+  line-height:50px;
+}
+
+.row_1 span.second-message{
+  margin-top: 140px;
+  color: #00008B;
+
+}
+
+button{
+  margin-top: 30px;
+  background-color: orange;
+  padding: 5px;
+  color:white;
+  width:140px;
+  height:40px;
+  border: 0;
+  border-radius: 5px;
+}
+
+
 .cover{
   background-image: url(./img/jumbotron.png);
-  height:480px;
   background-size: cover;
-}
+  max-width: 100%;
+  }
