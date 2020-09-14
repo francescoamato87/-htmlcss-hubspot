@@ -42,7 +42,7 @@ button{
 .content{
   width: 1000px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 cleafix::after{
@@ -352,6 +352,60 @@ line-height: 30px;
   text-align: center;
 }
 
-.data-content{
-  width: 600px;
+/* FOOTER-GIRL-1 */
+
+.logo-img_1 img, .logo-img_2 img{
+  width:  100px;
+  margin-left: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.Subaru_Logo{
+  text-align: center;
+}
+
+.number{
+  float: left;
+  margin-left: 25px;
+}
+
+.number h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.number p{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+/* FOOTER-GIRL-2 */
+
+.elements {
+  float: left;
+  margin-top: 40px;
+}
+
+.elements h2{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+
+.elements p{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.elements button-jumbo{
+  margin-bottom: 30px;
+}
+
+.girl-logo img{
+  width: 300px;
+  margin: 10px 100px;
+
 }
