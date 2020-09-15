@@ -45,7 +45,7 @@ button{
   /* border: 1px solid red; */
 }
 
-cleafix::after{
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
@@ -59,8 +59,9 @@ cleafix::after{
   top: 20px;
 }
 
-.title li i{
-  margin-left: 10px;
+.title i, li{
+  margin-right: 10px;
+  color:#00008B;
 }
 
 .search{
@@ -69,6 +70,14 @@ vertical-align: middle;
 padding:10px;
 }
 
+.search i{
+  margin-right: 10px;
+}
+
+.search .login{
+  margin-right: 10px;
+
+}
 
 .title ul {
   list-style: none;
@@ -76,6 +85,7 @@ padding:10px;
 .title ul li{
 font-family: 'Roboto', sans-serif;
 float:left;
+
 }
 
 .title ul li:not(:first-child){
@@ -92,7 +102,7 @@ float:left;
   margin-right: 5px;
 }
 
-/* MENU */
+/* HEADER-MENU */
 
 .nav-bottom{
   background: white;
@@ -116,6 +126,7 @@ float: left;
   color: #00008B;
   font-size: 15px;
   }
+
 /* MAIN-jumbotron */
 
 .row_1 h1{
@@ -290,10 +301,6 @@ width: 66%;
   margin-top: 20px;
 }
 
-/* .column p{
-  margin-top: 20px;
-} */
-
 .linea{
   width: 60%;
   margin: 30px auto;
@@ -303,54 +310,69 @@ width: 66%;
   margin-top: 30px;
 }
 
-  .line-height-30{
-    line-height: 30px;
-  }
+.line-height-30{
+  line-height: 30px;
+}
 
-  .list-tick{
-    text-align: left;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
+.list-tick{
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
   .column i{
     color:orange;
     margin-right: 10px;
   }
 
-.summary::after{
-  content: '';
-  display: table;
-  clear: both;
-}
+/* GRADIENT */
 
-
-.summary {
+.gradient {
+  margin-top:20px;
   padding-top:20px;
   padding-bottom:20px;
   background: rgb(0,89,87);
   background: linear-gradient(90deg, rgba(0,89,87,1) 0%, rgba(59,194,174,1) 100%);
 }
 
-  .box-3{
-  font-family: 'Roboto',sans-serif;
-  color:white;
-  text-align: center;
+.box-3{
+font-family: 'Roboto',sans-serif;
+color:white;
+text-align: center;
 }
 
 .box-3 p {
-margin-top: 30px;
-line-height: 30px;
+ margin-top: 30px;
+ line-height: 30px;
 }
 
 .data{
   font-family: 'Roboto', sans-serif;
   color: white;
-  margin-top: 60px;
   float: left;
-  margin-left: 80px;
+  width: 25%;
   text-align: center;
+  line-height: 30px;
+  border-right: 1px solid white;
 }
+
+
+
+.row-data-1{
+  margin-top: 30px;
+  border-bottom: 1px solid white;
+}
+
+.data i, h1{
+  padding: 10px;
+  margin-bottom:15px;
+  }
+
+.data i{
+  width: 40px;
+}
+
+
 
 /* FOOTER-GIRL-1 */
 
@@ -375,11 +397,13 @@ line-height: 30px;
   font-size: 50px;
   margin-bottom: 40px;
   margin-top: 20px;
+  color:#00008B;
 }
 .number p{
   font-family: 'Roboto', sans-serif;
   margin-top: 10px;
   margin-left: 5px;
+  color: #00008B;
 }
 
 /* FOOTER-GIRL-2 */
@@ -392,12 +416,14 @@ line-height: 30px;
 .elements h2{
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
+  color: #00008B;
 }
 
 .elements p{
   font-family: 'Roboto', sans-serif;
   margin-top: 30px;
   line-height: 30px;
+  color: #00008B;
 }
 
 .elements button-jumbo{
