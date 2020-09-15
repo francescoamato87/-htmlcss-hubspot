@@ -187,8 +187,9 @@ float: left;
 /* seconda parte MAIN */
 
 .content-white{
+  margin-top: 20px;
   background: white;
-  border: 1px solid #00008B;
+  /* border: 1px solid #00008B; */
   border-radius: 5px;
   padding: 25px;
 }
@@ -356,7 +357,9 @@ text-align: center;
   border-right: 1px solid white;
 }
 
-
+.border{
+  border-right:none;
+}
 
 .row-data-1{
   margin-top: 30px;
